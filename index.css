@@ -1,0 +1,132 @@
+
+
+
+
+@font-face {
+    font-family: 'NeueMachina';
+    src: url(./font/NeueMachina.woff);
+}
+@font-face {
+    font-family: 'NeueMachinaLight';
+    src: url(./font/NeueMachinaLight.woff);
+}
+
+@font-face {
+    font-family: 'SatoshiVariable';
+    src: url(./font/SatoshiVariable.ttf);
+}
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --salmon:#EF9D71;
+    --black:#000;
+    --white:#fff;
+    --cyan:#AEDEE0;
+    --dsalmon:#532521;
+    --dcyan:#1f2f32;
+    --dblue:#2544EE
+}
+
+*::selection{
+    background-color: salmon;
+}
+
+
+
+
+body[theme="dark"]{
+    background-color: #000;
+}
+
+body[theme="salmon"]{
+    background-color: salmon;
+}
+body[theme="dark"] .section{
+    color: rgb(133, 65, 58);
+}
+
+body[theme="dark"] .section{
+    color: #fff;
+}
+
+
+.home-foreground{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+
+.font-neue{
+    font-family: 'NeueMachina', sans-serif;
+}
+.font-neue-light{
+    font-family: 'NeueMachinaLight', sans-serif;
+}
+.font-satoshi{
+    font-family: 'SatoshiVariable', sans-serif;
+}
+
+.tagline , .custom-cursor {
+    mix-blend-mode: difference;
+}
+
+.top-text > span {
+    opacity:0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.1;
+}
+
+.home-marquee{
+    transform-origin: center;
+}
+
+.custom-cursor{
+    transform: translate(-50%,-50%);
+}
+.mask-wrapper {
+
+    width:100%;
+    height:100vh;
+   
+
+     mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyNCAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMjMuOTk4NSAwQzEzLjY0ODcgNS43NTU5MyAxMC4zNDgzIDUuNzU1OTMgMS45MDczNWUtMDYgLTEuMDQ5MDdlLTA2QzYuMjc3MyA5LjQ4NjUyIDYuMjc3MyAxMi41MTM1IDkuNDU2OThlLTA3IDIyQzEwLjM0OTggMTYuMjQ1NSAxMy42NTAyIDE2LjI0NTUgMjQgMjJDMTcuNzIxMiAxMi41MTM1IDE3LjcyMTIgOS40ODc5IDIzLjk5ODUgMFoiIGZpbGw9ImJsYWNrIiAvPgo8L3N2Zz4=);
+    mask-repeat: no-repeat;
+    mask-size: 0%;
+    mask-position: center;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5; */
+}
+
+.project-one{
+    width:100%;
+    height:100%;
+   
+    background-image: url("https://images.prismic.io/rejouice-2024/Z1r5W5bqstJ98aZ2_intreprid.jpg?auto=format,compress&w=2560&h=1472&fm=avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.project-two{
+    width:100%;
+    height:100%;
+    background-image: url("https://images.prismic.io/rejouice-2024/Z1r5X5bqstJ98aZ9_oura.jpg?auto=format,compress&w=2560&h=1472&fm=avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: red; */
+    background-position: center;
+}
+
+.project-three{
+    
+ width:100%;
+    height:100%;
+    background-image: url("https://www.rejouice.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Frejouice-2024%2FZ3Fv-5bqstJ984KU_Rectangle969.png?auto=format,compress?auto=compress,format&w=1919&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* */
