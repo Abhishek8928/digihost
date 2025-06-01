@@ -69,7 +69,7 @@ body[theme="dark"] .section{
     font-family: 'SatoshiVariable', sans-serif;
 }
 
-.tagline , .custom-cursor {
+.tagline , .custom-cursor ,.top-nav > h2 {
     mix-blend-mode: difference;
 }
 
@@ -126,6 +126,14 @@ body[theme="dark"] .section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.about{
+    background-image: url("https://www.rejouice.com/_vercel/image?url=https:%2F%2Fimages.prismic.io%2Frejouice-2024%2FZ3Fv-5bqstJ984KU_Rectangle969.png?auto=format,compress?auto=compress,format&w=1919&q=80");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 

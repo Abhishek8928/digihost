@@ -117,7 +117,7 @@ let t1 = gsap.timeline({
   scrollTrigger: {
     trigger: ".project",
     start: "top top",
-    end: "100% top",
+    end: "300% top",
     scrub: 2,
     // markers: true,
     pin: true,
@@ -128,7 +128,7 @@ let t1 = gsap.timeline({
 t1.to(
   ".mask-one",
   {
-    maskSize: "300%",
+    maskSize: "400%",
   },
   "a"
 )
@@ -142,7 +142,7 @@ t1.to(
   .to(
     ".mask-two",
     {
-      maskSize: "300%",
+      maskSize: "400%",
     },
     "b"
   )
@@ -156,7 +156,7 @@ t1.to(
   .to(
     ".mask-three",
     {
-      maskSize: "300%",
+      maskSize: "400%",
     },
     "c"
   )
